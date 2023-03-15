@@ -21,5 +21,10 @@ body {
   gap: 20px;
   overflow-x: auto;
   justify-content: center;
-  /* align-items: start; */
+}
+
+@media screen and (max-width: 580px) {
+  .cards-list {
+    justify-content: flex-start;
+  }
 }

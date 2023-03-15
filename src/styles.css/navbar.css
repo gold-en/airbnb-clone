@@ -8,3 +8,9 @@ nav {
 .nav-logo {
   max-width: 100px;
 }
+
+@media screen and (max-width: 580px) {
+  nav {
+    padding: 20px 5px;
+  }
+}
